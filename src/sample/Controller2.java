@@ -17,9 +17,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class Controller2 {
@@ -111,7 +108,7 @@ public class Controller2 {
     private TextArea output_area;
 
     // D:\coding\minecraft dev\texturepack tools\guifactory
-    private String defaultPath = "D:/coding/minecraft dev/texturepack tools/guifactory";
+    private String defaultPath = "";
 
     private String template_path = defaultPath;
     private String output_location = defaultPath;
